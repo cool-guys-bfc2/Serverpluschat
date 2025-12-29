@@ -1,0 +1,25 @@
+{
+  "name": "serverpluschat",
+  "version": "1.0.0",
+  "description": "A WebSocket server for real-time chat using Express and ws",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "websocket",
+    "express",
+    "chat",
+    "server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
